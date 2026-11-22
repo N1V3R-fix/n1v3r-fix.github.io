@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es" data-idioma="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Draft Lab · Asistente de selección de campeones para League of Legends</title>
+<meta name="description" content="Asistente gratuito para la selección de campeones de League of Legends: bans, picks, composición y builds ajustadas al rival, con estadísticas de partidas reales.">
+<link rel="icon" href="img/favicon.png">
+<link rel="stylesheet" href="estilo.css">
+<script src="idioma.js"></script>
+</head>
+<body>
+<header><div class="contenedor">
+  <a class="marca" href="index.html"><img src="img/icono.png" alt="">Draft Lab</a>
+  <nav>
+    <a class="extra" href="#funciones"><span lang="es">Funciones</span><span lang="en">Features</span></a>
+    <a class="extra" href="#juego-limpio"><span lang="es">Juego limpio</span><span lang="en">Fair play</span></a>
+    <a href="privacidad.html"><span lang="es">Privacidad</span><span lang="en">Privacy</span></a>
+    <a href="terminos.html"><span lang="es">Términos</span><span lang="en">Terms</span></a>
+    <button class="idioma" type="button" data-cambiar-idioma><span lang="es">English</span><span lang="en">Español</span></button>
+  </nav>
+</div></header>
+
+<main>
+<div class="contenedor heroe">
+  <div>
+    <h1><span lang="es">Tu draft, claro de un vistazo</span><span lang="en">Your draft, clear at a glance</span></h1>
+    <p lang="es">Asistente gratuito para la selección de campeones de League of Legends. Recomienda bans y picks para tu rol, compara las dos composiciones y te muestra runas y objetos ajustados al rival, con estadísticas de partidas reales de Esmeralda o más.</p>
+    <p lang="en">A free champion select assistant for League of Legends. It recommends bans and picks for your role, compares both team compositions and shows runes and items adjusted to the enemy team, using statistics from real Emerald+ ranked games.</p>
+    <div class="botones">
+      <a class="boton principal" href="https://github.com/N1V3R-fix/n1v3r-fix.github.io/releases/latest/download/DraftLab-Instalador.exe"><span lang="es">Descargar para Windows</span><span lang="en">Download for Windows</span></a>
+      <a class="boton secundario" href="#funciones"><span lang="es">Cómo funciona</span><span lang="en">How it works</span></a>
+    </div>
+    <p class="nota"><span lang="es">Gratis · Windows 10 y 11 · Sin cuenta ni clave de Riot</span><span lang="en">Free · Windows 10 and 11 · No account or Riot key needed</span><br>
+    <span lang="es">Versión de prueba: Windows puede mostrar una advertencia porque la app todavía no tiene firma digital.</span><span lang="en">Test version: Windows may show a warning because the app is not digitally signed yet.</span></p>
+  </div>
+  <div class="capturas">
+    <img src="img/captura-draft.png" alt="Draft Lab: pestaña Draft" width="480" height="860">
+    <img src="img/captura-equipos.png" alt="Draft Lab: pestaña Equipos" width="480" height="860">
+    <img src="img/captura-build.png" alt="Draft Lab: pestaña Build" width="480" height="860">
+  </div>
+</div>
+
+<section id="funciones"><div class="contenedor">
+  <h2><span lang="es">Todo lo que necesitas antes de la partida</span><span lang="en">Everything you need before the game</span></h2>
+  <p class="sub"><span lang="es">Una ventana angosta al lado del cliente, con poco texto: se lee en los segundos que dura tu turno.</span><span lang="en">A narrow window next to the client with very little text: readable in the seconds your turn lasts.</span></p>
+  <div class="rejilla">
+    <div class="tarjeta"><span class="tag">Draft</span>
+      <h3><span lang="es">Picks y bans con su razón</span><span lang="en">Picks and bans with a reason</span></h3>
+      <p lang="es">Una nota de 0 a 100 para cada opción, según la fuerza del campeón, la línea, la sinergia, lo que le falta a tu equipo y tu comodidad con él.</p>
+      <p lang="en">A 0–100 score for each option based on champion strength, lane matchup, synergy, what your team is missing and how comfortable you are with it.</p></div>
+    <div class="tarjeta"><span class="tag">Equipos</span>
+      <h3><span lang="es">Las dos composiciones, comparadas</span><span lang="en">Both compositions, compared</span></h3>
+      <p lang="es">Quién llega mejor al draft y por qué: tipo de composición, frontline, control, daño, líneas y un plan corto para la partida.</p>
+      <p lang="en">Which team has the better draft and why: composition type, frontline, crowd control, damage profile, lanes and a short game plan.</p></div>
+    <div class="tarjeta"><span class="tag">Build</span>
+      <h3><span lang="es">Runas y objetos ajustados al rival</span><span lang="en">Runes and items adjusted to the enemy</span></h3>
+      <p lang="es">La página de runas, los hechizos y el orden de objetos más usados. Si el rival tiene mucho daño mágico o físico, la build cambia según lo que compran los jugadores en esas partidas.</p>
+      <p lang="en">The most played rune page, summoner spells and item order. If the enemy team deals mostly magic or physical damage, the build adapts to what players buy in those games.</p></div>
+    <div class="tarjeta"><span class="tag" lang="es">Personalizar</span><span class="tag" lang="en">Customize</span>
+      <h3><span lang="es">A tu manera</span><span lang="en">Your way</span></h3>
+      <p lang="es">Colores, fondo con el arte de tu campeón y su aspecto, tamaño, secciones visibles y una ventana que queda encima del juego si quieres.</p>
+      <p lang="en">Colors, a background with your champion's splash art and skin, size, visible sections, and an optional always-on-top window.</p></div>
+  </div>
+</div></section>
+
+<section id="juego-limpio"><div class="contenedor">
+  <h2><span lang="es">Juego limpio</span><span lang="en">Fair play</span></h2>
+  <p class="sub"><span lang="es">Draft Lab te muestra opciones; las decisiones son tuyas.</span><span lang="en">Draft Lab shows you options; the decisions are yours.</span></p>
+  <div class="limpio">
+    <div><i>✓</i><span lang="es"><b>Solo lee el cliente.</b> Nunca elige, banea ni hace nada por ti.</span><span lang="en"><b>Read-only.</b> It never picks, bans or acts for you.</span></div>
+    <div><i>✓</i><span lang="es"><b>Nada oculto.</b> No muestra información de otros jugadores que el juego esconde.</span><span lang="en"><b>Nothing hidden.</b> It never reveals information about other players that the game hides.</span></div>
+    <div><i>✓</i><span lang="es"><b>Tus datos se quedan en tu PC.</b> Sin cuentas, publicidad ni seguimiento.</span><span lang="en"><b>Your data stays on your PC.</b> No accounts, ads or tracking.</span></div>
+    <div><i>✓</i><span lang="es"><b>Estadísticas abiertas.</b> Partidas clasificatorias de Esmeralda o más en LAS, KR y EUW, actualizadas cada parche.</span><span lang="en"><b>Open statistics.</b> Emerald+ ranked games from LAS, KR and EUW, updated every patch.</span></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="contenedor">
+  <div class="enlaces"><a href="privacidad.html"><span lang="es">Privacidad</span><span lang="en">Privacy</span></a><a href="terminos.html"><span lang="es">Términos</span><span lang="en">Terms</span></a><span><span lang="es">Contacto</span><span lang="en">Contact</span>: <a href="mailto:Niver1103@gmail.com">Niver1103@gmail.com</a></span></div>
+  <p>Draft Lab isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p>
+</div></footer>
+</body>
+</html>
